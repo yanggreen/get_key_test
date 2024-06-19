@@ -31,6 +31,7 @@ async def get_url_data():
             pattern = r'userKey=([a-f\d]{64})'
             all_urls = ''.join(url_data)
             keys = re.findall(pattern, all_urls)
+            print(keys)
             if keys:
                 key = keys[0]
             url_data = []
