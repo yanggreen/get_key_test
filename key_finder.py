@@ -5,7 +5,7 @@ import re
 from random import random as uniform
 import asyncio
 import os
-os.system("playwright install firefox")
+
 
 async def get_url_data():
     url_data = []
